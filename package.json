@@ -1,17 +1,22 @@
 {
-  "dependencies": {
-    "react": "^18.0.0",
-    "react-dom": "^18.0.0",
-    "react-scripts": "^5.0.1"
+  "name": "my-project",
+  "version": "1.0.0",
+  "description": "A simple HTML, CSS, TailwindCSS, and JavaScript project",
+  "main": "index.html",
+  "scripts": {
+    "build": "npx tailwindcss -i ./public/input.css -o ./public/output.css --watch"
   },
   "devDependencies": {
-    "tailwindcss": "^3.4.17"
+    "tailwindcss": "^3.4.17",
+    "postcss": "^8.4.14",
+    "autoprefixer": "^10.4.2"
   },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "tailwindcss": "^3.4.17",
+    "postcss": "^8.4.14",
+    "autoprefixer": "^10.4.2"
   }
 }
-

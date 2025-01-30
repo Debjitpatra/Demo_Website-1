@@ -4,7 +4,7 @@
   "description": "A simple HTML, CSS, TailwindCSS, and JavaScript project",
   "main": "index.html",
   "scripts": {
-    "build": "npx tailwindcss -i ./public/input.css -o ./dist/output.css --watch"
+    "build": "npx tailwindcss -i ./public/input.css -o ./public/output.css --watch"
   },
   "devDependencies": {
     "tailwindcss": "^3.4.17",
